@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>CourseNow</name>
+        <order/>
+        <roles>x_snc_learningmana.coursenow_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-09 17:44:31</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>611cdbb62da232007f44698ae851016f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CourseNow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LearningManagementNow" source="x_snc_learningmana">a7c9df762da232007f44698ae85101a2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LearningManagementNow">a7c9df762da232007f44698ae85101a2</sys_scope>
+        <sys_update_name>sys_ui_application_611cdbb62da232007f44698ae851016f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-09 17:44:31</sys_updated_on>
+    </sys_ui_application>
+</record_update>

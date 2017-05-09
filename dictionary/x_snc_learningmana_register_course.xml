@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Register Course" max_length="40" name="x_snc_learningmana_register_course" type="collection">
+        <element label="Attending" max_length="40" name="attending" type="boolean"/>
+        <element label="CourseNow" max_length="32" name="coursenow" reference="x_snc_learningmana_coursenow" type="reference"/>
+        <element display="true" label="Student" max_length="32" name="student" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="coursenow"/>
+        </index>
+        <index name="index2">
+            <element name="student"/>
+        </index>
+    </element>
+</database>

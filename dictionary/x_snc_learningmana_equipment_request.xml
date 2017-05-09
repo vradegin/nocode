@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Equipment Request" max_length="40" name="x_snc_learningmana_equipment_request" type="collection">
+        <element label="CourseNow" max_length="32" name="coursenow" reference="x_snc_learningmana_coursenow" type="reference"/>
+        <element label="Needed From" max_length="40" name="needed_from" type="glide_date"/>
+        <element label="Needed To" max_length="40" name="needed_to" type="glide_date"/>
+        <element display="true" label="Type" max_length="32" name="type" reference="cmdb_hardware_product_model" reference_qual="cmdb_model_categoryLIKEc38a6bba2da232007f44698ae8510107^EQ" reference_qual_condition="cmdb_model_categoryLIKEc38a6bba2da232007f44698ae8510107^EQ" type="reference"/>
+    </element>
+</database>

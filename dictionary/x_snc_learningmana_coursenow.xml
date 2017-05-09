@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="CourseNow" max_length="40" name="x_snc_learningmana_coursenow" type="collection">
+        <element label="Course Date" max_length="40" name="course_date" type="glide_date_time"/>
+        <element display="true" label="Course Name" max_length="30" name="course_name" type="string"/>
+        <element label="Instructor" max_length="32" name="instructor" reference="sys_user" type="reference"/>
+        <element choice="1" label="Location" max_length="40" name="location" type="choice">
+            <choice>
+                <element label="Chicago" value="Chicago"/>
+                <element label="Orlando" value="Orlando"/>
+            </choice>
+        </element>
+        <element choice="1" label="Meeting Room" max_length="40" name="meeting_room" type="choice">
+            <choice/>
+        </element>
+        <element label="Onsite" max_length="40" name="onsite" type="boolean"/>
+        <index name="index">
+            <element name="instructor"/>
+        </index>
+    </element>
+</database>
